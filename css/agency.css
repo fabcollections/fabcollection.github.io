@@ -694,6 +694,15 @@ ul.social-buttons li a:active {
   font-size: 40px;
   align-items: text-center;
 }
+.con-size{
+  align-items: center;
+  padding-top:center;
+  padding-bottom: center;
+  padding-left: center;
+  padding-right: center;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
