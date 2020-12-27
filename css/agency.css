@@ -278,6 +278,7 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+
 section {
   padding: 100px 0;
 }
@@ -688,6 +689,10 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
+}
+.con{
+  font-size: 40px;
+  align-items: text-center;
 }
 .portfolio-modal .close-modal {
   position: absolute;
