@@ -119,7 +119,18 @@ img {
 }
 
 /* Next & previous buttons */
-.prev,
+.prev{  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;}
 .next {
   cursor: pointer;
   position: absolute;
@@ -188,7 +199,6 @@ img {
 </style>
 <body>
 
-<h2 style="text-align:center">Saree Gallery</h2>
 
 <div class="container">
   <div class="mySlides">
@@ -221,8 +231,8 @@ img {
     <img src="img/portfolio/treehouse.png" style="width:100%">
   </div>
     
-  <a class="prev" onclick="plusSlides(-1)">?</a>
-  <a class="next" onclick="plusSlides(1)">?</a>
+  <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+  <a class="next" onclick="plusSlides(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 
   <div class="caption-container">
     <p id="caption"></p>
